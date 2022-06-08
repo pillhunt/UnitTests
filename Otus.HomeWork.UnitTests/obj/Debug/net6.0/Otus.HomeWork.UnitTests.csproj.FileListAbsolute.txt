@@ -1,0 +1,12 @@
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\bin\Debug\net6.0\Otus.HomeWork.UnitTests.deps.json
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\bin\Debug\net6.0\Otus.HomeWork.UnitTests.dll
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\bin\Debug\net6.0\Otus.HomeWork.UnitTests.pdb
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\Otus.HomeWork.UnitTests.csproj.AssemblyReference.cache
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\Otus.HomeWork.UnitTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\Otus.HomeWork.UnitTests.AssemblyInfoInputs.cache
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\Otus.HomeWork.UnitTests.AssemblyInfo.cs
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\Otus.HomeWork.UnitTests.csproj.CoreCompileInputs.cache
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\Otus.HomeWork.UnitTests.dll
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\refint\Otus.HomeWork.UnitTests.dll
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\Otus.HomeWork.UnitTests.pdb
+D:\Library\Education\Otus\Code\Otus\Tests\Otus.HomeWork.UnitTests\obj\Debug\net6.0\ref\Otus.HomeWork.UnitTests.dll
