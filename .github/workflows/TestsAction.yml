@@ -23,3 +23,12 @@ jobs:
       run: dotnet build --no-restore
     - name: Test
       run: dotnet test --no-build --verbosity normal
+    
+    - name: Setup Nuget
+      uses: Nuget/setup-nuget@v1.0.5
+
+    - name: Restore nuget packages
+      run: nuget restore ../Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln
+
+    - name: Build
+      run: msbuild ../Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln /p:Configuration=Release
