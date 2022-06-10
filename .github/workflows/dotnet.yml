@@ -20,7 +20,7 @@ jobs:
       with:
         dotnet-version: ${{ env.DOTNET_VERSION }}
     - name: Restore nuget packages
-      run: nuget restore ../../Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln
+      run: nuget restore ../Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln
     - name: Build
       run: dotnet build --configuration Release --no-restore
     - name: Test
