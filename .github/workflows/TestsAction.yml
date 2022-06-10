@@ -2,33 +2,29 @@ name: .NET
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ master ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ master ]
 
 jobs:
   build:
-
+    # use ubuntu for more build minutes
     runs-on: ubuntu-latest
+    # use release mode for all steps
+    env:
+      config: 'Release'
 
     steps:
-    - uses: actions/checkout@v3
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v2
+    - uses: actions/checkout@v2
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v1
       with:
         dotnet-version: 6.0.x
-    - name: Restore dependencies
+
+      # restore dependencies  
+    - name: Install dependencies
       run: dotnet restore
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
-    
-    - name: Setup Nuget
-      uses: Nuget/setup-nuget@v1.0.5
 
-    - name: Restore nuget packages
-      run: nuget restore UnitTests/UnitTests/Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln
-
+      # build project
     - name: Build
-      run: msbuild UnitTests/UnitTests/Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln /p:Configuration=Release
+      run: dotnet build --configuration $config --no-restore
