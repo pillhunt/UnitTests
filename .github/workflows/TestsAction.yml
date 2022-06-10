@@ -28,7 +28,7 @@ jobs:
       uses: Nuget/setup-nuget@v1.0.5
 
     - name: Restore nuget packages
-      run: nuget restore /UnitTests/Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln
+      run: nuget restore ./UnitTests/Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln
 
     - name: Build
-      run: msbuild /UnitTests/Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln /p:Configuration=Release
+      run: msbuild ./UnitTests/Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln /p:Configuration=Release
