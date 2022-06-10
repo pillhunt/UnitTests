@@ -22,6 +22,6 @@ jobs:
     - name: Restore nuget packages
       run: nuget restore Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln
     - name: Build
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln --configuration Release --no-restore
     - name: Test
-      run: dotnet test --no-restore --verbosity normal
+      run: dotnet test Otus.HomeWork.UnitTests/Otus.HomeWork.UnitTests.sln --no-restore --verbosity normal
